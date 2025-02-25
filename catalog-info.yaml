@@ -10,11 +10,11 @@ metadata:
       type: admin-dashboard
   annotations:
     # ArgoCD apps from this template used rhtap-gitops as the grouping
-    argocd/app-selector: rhtap/gitops=gh-actions
-    backstage.io/kubernetes-id: gh-actions 
+    argocd/app-selector: rhtap/gitops=bar
+    backstage.io/kubernetes-id: bar 
     backstage.io/techdocs-ref: dir:. 
-    github.com/project-slug: tnevrlka-rhtap/gh-actions
-    quay.io/repository-slug: tnevrlka-rhtap/gh-actions
+    github.com/project-slug: tnevrlka-rhtap/bar
+    quay.io/repository-slug: tnevrlka-rhtap/bar
   tags: ["experimental", "sscs", "sbom", "acs"] 
 spec:
   type: service
