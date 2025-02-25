@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: gh-actions 
+  name: bar 
   description: Secure Supply Chain Example for User Provided Repo   
   links:
     - url: https://www.redhat.com/en/solutions/trusted-software-supply-chain
